@@ -35,16 +35,23 @@ export default function SignIn() {
           {/* Left Side - Rocket Illustration */}
           <div className="relative order-2 md:order-1">
             <motion.div
-              animate={{ y: [-8, 8, -8] }}
-              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+              animate={{
+                y: [-8, 8, -8],
+              }}
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
               className="w-full h-48 md:h-72 relative"
             >
               <Image
-                src="/rocket.svg"
+                src="/social-media/rocket.svg"
                 alt="Rocket illustration"
-                layout="fill"
-                objectFit="contain"
+                width={400}
+                height={400}
                 priority
+                style={{ objectFit: 'contain' }}
               />
             </motion.div>
             <motion.h1 
@@ -171,11 +178,11 @@ export default function SignIn() {
               {/* Social Sign Up */}
               <div className="mt-4 text-center text-sm text-gray-500">or sign up with</div>
               <div className="flex justify-center space-x-4">
-                <button className="p-2">
-                  <Image src="/google.svg" alt="Google" width={24} height={24} />
+                <button type="button" className="p-2 hover:opacity-80 transition-opacity">
+                  <Image src="/social-media/google.svg" alt="Google" width={24} height={24} />
                 </button>
-                <button className="p-2">
-                  <Image src="/facebook.svg" alt="Facebook" width={24} height={24} />
+                <button type="button" className="p-2 hover:opacity-80 transition-opacity">
+                  <Image src="/social-media/facebook.svg" alt="Facebook" width={24} height={24} />
                 </button>
               </div>
             </form>
