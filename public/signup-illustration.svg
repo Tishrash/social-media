@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Character -->
+  <g transform="translate(100, 50)">
+    <!-- Body -->
+    <path d="M100 180C130 180 150 220 150 260C150 300 130 320 100 320C70 320 50 300 50 260C50 220 70 180 100 180Z" fill="#6366F1"/>
+    <!-- Head -->
+    <circle cx="100" cy="150" r="40" fill="#F9FAFB"/>
+    <!-- Arms -->
+    <path d="M150 220C170 200 200 200 220 220" stroke="#F9FAFB" stroke-width="20" stroke-linecap="round"/>
+    <path d="M50 220C30 200 0 200 -20 220" stroke="#F9FAFB" stroke-width="20" stroke-linecap="round"/>
+    <!-- Device -->
+    <rect x="160" y="180" width="80" height="120" rx="10" fill="#F9FAFB"/>
+    <rect x="170" y="190" width="60" height="90" rx="5" fill="#6366F1"/>
+  </g>
+
+  <!-- Floating Elements -->
+  <circle cx="50" cy="100" r="20" fill="#EC4899" fill-opacity="0.5"/>
+  <circle cx="350" cy="150" r="15" fill="#FCD34D" fill-opacity="0.5"/>
+  <circle cx="300" cy="300" r="25" fill="#60A5FA" fill-opacity="0.5"/>
+
+  <!-- Decorative Lines -->
+  <path d="M20 200C50 180 80 190 100 220" stroke="#E5E7EB" stroke-width="2"/>
+  <path d="M300 100C330 80 360 90 380 120" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Small Dots -->
+  <circle cx="150" cy="50" r="3" fill="#9CA3AF"/>
+  <circle cx="250" cy="350" r="3" fill="#9CA3AF"/>
+  <circle cx="50" cy="300" r="3" fill="#9CA3AF"/>
+  <circle cx="350" cy="250" r="3" fill="#9CA3AF"/>
+</svg> 
