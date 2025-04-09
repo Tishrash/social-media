@@ -1,6 +1,19 @@
-# Modern Authentication and Dashboard
+# 🌐 Modern Authentication and Dashboard
 
-A modern authentication system and dashboard built with Next.js and Tailwind CSS.
+A sleek, fully responsive authentication system and dashboard interface built with modern technologies like **Next.js 14**, **Tailwind CSS**, and **Framer Motion**.
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel)](https://tishrash.github.io/social-media/auth)
+[![Next.js](https://img.shields.io/badge/Next.js-14-blue?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+
+---
+
+## 🔗 Live Demo
+
+👉 [Click here to view the deployed project](https://tishrash.github.io/social-media/auth)
+
+---
 
 ## Features
 
